@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Contact</title>
+    <style>
+      section{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        overflow: scroll;
+        height: 120px;
+      }
+      main{
+        position: relative;
+        left: 120px;
+        top: 30px;
+      }
+      .rr{
+        visibility: hidden;
+      }
+
+
+    </style>
+    <script src="scroll.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Capstone Project</h1>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/page2.html">About</a></li>
+                    <li><a href="/page3.html">Contact</a></li>
+                    <li><a href="/page4.html">Info</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <button data-pages="sec1">Page1</button>
+            <button data-pages="sec2">Page2</button>
+            <button data-pages="sec3">Page3</button>
+            <article>
+            <div id="sec1" class="rr">
+                <section id="secc1" class="yt" data-sec="1">
+                    <h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Nulla quas numquam, soluta dolores repellendus cum deserunt suscipit 
+                         excepturi exercitationem impedit quibusdam eos, eius ullam doloribus, 
+                        modi quisquam dolore praesentium enim!
+                        
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Nulla quas numquam, soluta dolores repellendus cum deserunt suscipit 
+                         excepturi exercitationem impedit quibusdam eos, eius ullam doloribus, 
+                        modi quisquam dolore praesentium enim!
+                    </h2>
+                </section>
+                <p>This page was created with a scroll event and it scrolled <span class="sp"></span> times</p>
+            </div>
+            <div id="sec2" class="rr">
+                <section id="secc2" data-sec="sec1">
+                    <h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Nulla quas numquam, soluta dolores repellendus cum deserunt suscipit 
+                         excepturi exercitationem impedit quibusdam eos, eius ullam doloribus, 
+                        modi quisquam dolore praesentium enim!
+                        
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Nulla quas numquam, soluta dolores repellendus cum deserunt suscipit 
+                         excepturi exercitationem impedit quibusdam eos, eius ullam doloribus, 
+                        modi quisquam dolore praesentium enim!
+                    </h2>
+                </section>
+                <p>This page was created with a scroll event and it scrolled <span #="sp2"></span> times</p>
+            </div>
+            <div id="sec3" class="rr">
+                <section id="secc3" class="yt" data-sec="0">
+                    <h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Nulla quas numquam, soluta dolores repellendus cum deserunt suscipit 
+                         excepturi exercitationem impedit quibusdam eos, eius ullam doloribus, 
+                        modi quisquam dolore praesentium enim!
+                        
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Nulla quas numquam, soluta dolores repellendus cum deserunt suscipit 
+                         excepturi exercitationem impedit quibusdam eos, eius ullam doloribus, 
+                        modi quisquam dolore praesentium enim!
+                    </h2>
+                </section>
+                <p>This page was created with a scroll event and it scrolled <span class="sp"></span> times</p>
+            </div>
+            </article>
+        </main>
+
+    </div>
+</body>
+</html>

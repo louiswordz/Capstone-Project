@@ -1,0 +1,51 @@
+/* Index Page header */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+    background-color: antiquewhite;
+    list-style: 1.5px;
+}
+
+header{
+    background-color: cadetblue;
+    height: 60px;
+}
+
+header h1{
+    float: left;
+    color: beige;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+header nav{
+    float: right;
+    color: antiquewhite;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 200px;
+}
+header nav li{
+    margin-left: 40px;
+}
+
+nav ul li a{
+    color: aliceblue;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+header::after{
+    display: table;
+    content: "";
+    clear: both;
+}
